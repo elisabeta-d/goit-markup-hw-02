@@ -1,0 +1,239 @@
+:root {
+    --link-color: #fff
+
+}
+
+.site-name1 {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+
+
+}
+.site-name2 {
+    color: #000000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+
+}
+
+body {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    color: #212121;
+}
+
+.current {
+  color:  #212121;
+}
+
+.current a:hover {
+    color: #2196F3;
+}
+
+.current a:active {
+    color: #ff0000;
+}
+
+.contacts {
+    color: #757575;
+}
+
+.contacts a:hover {
+    color: #2196F3;
+}
+
+.content-page {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+
+}
+.title  {
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
+    font-size: 44px; 
+    font-weight: 900; 
+    line-height: 60px;
+    letter-spacing: 6%;
+    text-align: center;
+}
+
+.button-request {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+    width: 161px;
+    height: 30px;
+    top: 440px;
+    left: 720px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 6%;
+    text-align: center;
+}
+
+.button:focus {
+    background: #2196F3;
+    color:  #F5F4FA
+}
+.button {
+    cursor: pointer;
+    color: #212121;
+    font: Roboto;
+    width: 500;
+    size: 16px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.about-us h3 {
+    color: #212121;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 3%;
+}
+
+.about-us li {
+    color: #757575;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.what-we-do h2 {
+    color: #212121;
+    font-size: 36px;
+    line-height: 42.19px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.images {
+    width: 370px;
+    height: 294px;
+    top: 1061px;
+}
+    
+
+.our-team h2 {
+    color: #212121;
+    font-size: 36px;
+    line-height: 42.19px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.our-team h4 {
+    color: #212121;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 3%;
+}
+
+.our-team p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 3%;
+}
+
+.address {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.footer {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 251px;
+    top: 2097px;
+}
+
+.main-section img {
+    width: 370px;
+    height: 294px;
+}
+.main-section h2 {
+    color: #212121;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 6%;
+}
+.main-section p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3%;
+}
+
+.first-task {
+    color: #EEEEEE;
+    top: 262px;
+    left: 215px;
+    border: 1px;
+}
+.second-task {
+    color: #EEEEEE;
+    top: 262;
+    left: 615px;
+    border: 1px;
+}
+.third-task {
+    color: #EEEEEE;
+    top: 262px;
+    left: 1015px;
+    border: 1px;
+}
+.fourth.task {
+    color: #EEEEEE;
+    top: 696px;
+    left: 215px;
+    border: 1px;
+}
+.fifth-task {
+    color: #EEEEEE;
+    top: 696px;
+    left: 615;
+    border: 1px;
+}
+.sixth-task {
+    color: #EEEEEE;
+    top: 696px;
+    left: 1015px;
+    border: 1px;
+}
+.seventh-task {
+    color: #EEEEEE;
+    top: 1130px;
+    left: 215px;
+    border: 1px;
+}
+.eighth-task {
+    color: #EEEEEE;
+    top: 1130px;
+    left: 615px;
+    border: 1px;
+}
+.ninth-task {
+    color: #EEEEEE;
+    top: 1130px;
+    left: 1015px;
+    border: 1px;
+}
