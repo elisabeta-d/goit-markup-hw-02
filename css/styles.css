@@ -1,6 +1,27 @@
 :root {
-    --link-color: #fff
+    --button-request-color: #0060B6;
+}
+body {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #212121;
+}
 
+.nav-link-current {
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav-link-current:hover {
+    color: #2196F3;
+}
+.nav-link-current:active {
+    color: #ff0000;
+}
+
+li {
+    list-style: none;
 }
 
 .site-name1 {
@@ -10,10 +31,6 @@
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 0.03em;
-    text-align: left;
-
-
-
 }
 .site-name2 {
     color: #000000;
@@ -22,30 +39,10 @@
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 0.03em;
-    text-align: left;
-
-
-}
-
-body {
-    font-family: "Roboto", sans-serif; 
-    font-weight: 700;
-    color: #212121;
-}
-
-.current {
-  color:  #212121;
-}
-
-.current a:hover {
-    color: #2196F3;
-}
-
-.current a:active {
-    color: #ff0000;
 }
 
 .contacts {
+    text-decoration: none;
     color: #757575;
 }
 
@@ -89,10 +86,11 @@ body {
     text-align: center;
 }
 
-.button:focus {
-    background: #2196F3;
-    color:  #F5F4FA
+.button-request:hover {
+    background-color: var(--button-request-color);
+    color: #FFFFFF;
 }
+
 .button {
     cursor: pointer;
     color: #212121;
@@ -101,6 +99,11 @@ body {
     size: 16px;
     letter-spacing: 3%;
     text-align: center;
+}
+
+.button:focus {
+    background: #2196F3;
+    color:  #F5F4FA
 }
 
 .about-us h3 {
