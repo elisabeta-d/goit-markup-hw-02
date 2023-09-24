@@ -125,14 +125,22 @@ li {
     background-color: #F5F4FA;
     color: var(--title-color);
     cursor: pointer;
-    border: none;
     font: Roboto;
     width: 500;
     size: 16px;
     line-height: 26px;
-    letter-spacing: 3%;
+    letter-spacing: 0,03em;
+    text-align: center;
+    width: 120px;
+    top: 174px;
+    left: 542px;
+    border-radius: 4px;
 }
-.button :hover {
+.button:focus {
+    background: var(--hover-color);
+    color: #FFFFFF;
+}
+.button:hover {
     background: var(--hover-color);
     color: #FFFFFF;
 }
